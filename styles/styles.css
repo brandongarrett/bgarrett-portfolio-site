@@ -1,0 +1,130 @@
+html {
+    background-color: white;
+    
+}
+
+body {
+    margin: 0;
+}
+
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.big-logo {
+    display: flex;
+    height: 50px;
+    margin: 15px 375px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 15px 375px 15px 15px;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 25px;
+}
+
+.section1 {
+    background-image: url(../images/bg-me.png);
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(88, 95, 105, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+    color: white;
+}
+
+
+.name {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 3.5em;
+    letter-spacing: 5px;
+    margin-top: 35px;
+}
+
+.job {
+    text-align: center;
+    font-size: 1.5em;
+    font-kerning: initial;
+    margin-top: -45px;
+    font-weight: bold;
+}
+.name-n {
+    display: flex;
+}
+
+.portfolio {
+    margin: auto 20%;
+}
+
+#bigtitle {
+    font-size: 3em;
+}
+
+
+.portfolio-items-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-items-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-items-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    background-color: #606060;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+#title {
+    font-weight: bolder;
+    font-size: 1.75em;
+}
+
+.resume {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30px;
+    padding-top: 60px;
+    line-height: 0px;
+    color: white;
+    text-align: left;
+}
+
+.linkedinlogo {
+    color: white;
+    font-size: 1.75em;
+    padding-right: 301px;
+    padding-top: 89px;
+}
