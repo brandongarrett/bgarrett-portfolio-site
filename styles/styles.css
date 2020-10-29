@@ -22,7 +22,7 @@ a {
 .big-logo {
     display: flex;
     height: 50px;
-    margin: 15px 375px;
+    margin: 20px 375px;
 }
 
 .nav-items {
@@ -86,7 +86,7 @@ li {
 }
 
 .photo-arrow:hover {
-    transform: scale(1.09);
+    transform: scale(1.2);
 }
 
 
@@ -200,6 +200,7 @@ li {
 #title {
     font-size: 1.75em;
     margin-left: -60px;
+    margin-top: -30px;
     color: #606060;
 }
 
