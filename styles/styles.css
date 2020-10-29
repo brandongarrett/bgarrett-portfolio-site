@@ -27,6 +27,8 @@ body {
     margin: 15px 375px 15px 15px;
     text-transform: uppercase;
     font-size: .8em;
+    color: #606060;
+    font-weight: bold;
 }
 
 ul {
@@ -74,6 +76,11 @@ li {
 .portfolio {
     margin: auto 20%;
 }
+
+.port-words {
+    color: #606060;
+}
+
 .portfolio-items-1 {
     display: flex;
     justify-content: center;
@@ -81,6 +88,48 @@ li {
     text-align: center;
     font-size: 1.2em;
     font-style: oblique;
+}
+
+#bass {
+    transition: transform 1s;
+}
+#bass:hover {
+    transform: scale(1.09);
+}
+
+#doll {
+    transition: transform 1s;
+}
+#doll:hover {
+    transform: scale(1.09);
+}
+
+#firewise {
+    transition: transform 1s;
+}
+#firewise:hover {
+    transform: scale(1.09);
+}
+
+#steampunk {
+    transition: transform 1s;
+}
+#steampunk:hover {
+    transform: scale(1.09);
+}
+
+#lovecraft {
+    transition: transform 1s;
+}
+#lovecraft:hover {
+    transform: scale(1.09);
+}
+
+#train {
+    transition: transform 1s;
+}
+#train:hover {
+    transform: scale(1.09);
 }
 
 .portfolio-items-2 {
@@ -112,11 +161,13 @@ li {
     font-size: 3em;
     margin-left: -60px;
     font-weight: bolder;
+    color: #606060;
 }
 
 #title {
     font-size: 1.75em;
     margin-left: -60px;
+    color: #606060;
 }
 
 .resume {
@@ -135,4 +186,13 @@ li {
     font-size: 1.75em;
     padding-right: 305px;
     padding-top: 90px;
+}
+
+.linkedinlogo2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #606060;
 }
