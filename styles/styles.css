@@ -79,6 +79,8 @@ li {
 
 .port-words {
     color: #606060;
+    transition: transform 1s;
+    /* opacity: 0; */
 }
 
 .portfolio-items-1 {
@@ -90,10 +92,19 @@ li {
     font-style: oblique;
 }
 
-#bass {
+/* .port-words:hover {
+    animation: port-words ease 1s;
+}
+
+@keyframes port-words {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+} */
+
+.bass {
     transition: transform 1s;
 }
-#bass:hover {
+.bass:hover {
     transform: scale(1.09);
 }
 
@@ -167,7 +178,7 @@ li {
 #title {
     font-size: 1.75em;
     margin-left: -60px;
-    color: white;
+    color: #606060;
 }
 
 .resume {
@@ -195,4 +206,10 @@ li {
     margin-top: 5px;
     margin-left: 30px;
     color: #606060;
+}
+
+#foot-title {
+    font-size: 1.75em;
+    margin-left: -60px;
+    color: white
 }
