@@ -1,6 +1,7 @@
 html {
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -69,6 +70,22 @@ li {
     margin-top: -45px;
     font-weight: bold;
 }
+
+.photo-arrow {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 350px;
+    font-size: 4em;
+    transition: transform 1s;
+}
+
+.photo-arrow:hover {
+    transform: scale(1.09);
+}
+
+
 .name-n {
     display: flex;
 }
@@ -104,6 +121,7 @@ li {
 .bass {
     transition: transform 1s;
 }
+
 .bass:hover {
     transform: scale(1.09);
 }
